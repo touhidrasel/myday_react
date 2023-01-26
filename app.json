@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "factoryworkx pro",
+    "privacy": "unlisted",
+    "platforms": [
+      "ios",
+      "android"
+    ],
+    "version": "0.3",
+    "orientation": "portrait",
+    "icon": "./resources/app_icon.png",
+    "splash": {
+      "image": "./resources/splash-screen.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#FFFFFF"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.metrologx.factoryworkxpro",
+      "infoPlist": {
+        "NSCameraUsageDescription": "This app creates time card."
+      }
+    },
+    "android": {
+      "package": "com.metrologx.factoryworkxpro",
+      "permissions": [
+        "CAMERA",
+        "WRITE_EXTERNAL_STORAGE",
+        "CAMERA_ROLL"
+      ],
+      "versionCode": 3
+    },
+    "extra": {
+      "eas": {
+        "projectId": "49aa917c-a8c6-4651-beb3-7867645d3349"
+      }
+    }
+  }
+}
